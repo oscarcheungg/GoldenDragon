@@ -377,7 +377,7 @@ header {
 		font-size: 1rem;
 		font-family: "Ed Garamond";
 		font-weight: bold;
-		border-radius: 30px;
+		border-radius: 20px;
 		transition: all 0.3s ease;
 		text-align: center;
 	}
