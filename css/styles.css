@@ -90,7 +90,7 @@ header {
 .logo {
 	font-family: "EB Garamond";
 	background-color: #8A1E2D;
-	font-size: 20px; 
+	font-size: 20px;
 	font-weight: bold;
 	line-height: 55px;
 	padding: 0 20px;
@@ -132,12 +132,12 @@ header {
 .image-container {
 	position: relative;
 	width: 100%;
-	height: 500px; 
-	display: flex; 
+	height: 500px;
+	display: flex;
 	justify-content: center;
-	align-items: center; 
+	align-items: center;
 	text-align: center;
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 .banner-image {
@@ -146,7 +146,7 @@ header {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	object-fit: cover; 
+	object-fit: cover;
 	filter: brightness(50%) grayscale(10%);
 	z-index: 1;
 }
@@ -155,220 +155,220 @@ header {
 	position: relative;
 	z-index: 2;
 	color: #FDF5E6;
-	max-width: 800px; 
+	max-width: 800px;
 	padding: 20px;
 	line-height: 1.5;
 }
 
 .centered-text h1 {
-    margin: 0;
-    font-size: 30px; 
-    font-family: "Ed Garamond";
+	margin: 0;
+	font-size: 30px;
+	font-family: "Ed Garamond";
 }
 
 .centered-text p {
-    margin: 10px;
-    font-size: 15px; 
-    font-family: "Ed Garamond";
+	margin: 10px;
+	font-size: 15px;
+	font-family: "Ed Garamond";
 }
 
 .button-group {
 	padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+	display: flex;
+	justify-content: center;
+	gap: 15px;
 }
 
 .button {
-    text-decoration: none;
-    padding: 10px 30px;
-    font-size: 1.2em;
-    font-family: "Ed Garamond";
-    font-weight: bold;
-    border-radius: 20px;
-    display: inline-block;
-    transition: all 0.3s ease;
-    text-align: center;
+	text-decoration: none;
+	padding: 10px 30px;
+	font-size: 1.2em;
+	font-family: "Ed Garamond";
+	font-weight: bold;
+	border-radius: 20px;
+	display: inline-block;
+	transition: all 0.3s ease;
+	text-align: center;
 }
 
 .menu-button {
-    background-color: #8A1E2D; 
-    color: #FDF5E6; 
-    border: 2px solid transparent;
+	background-color: #8A1E2D;
+	color: #FDF5E6;
+	border: 2px solid transparent;
 }
 
 .menu-button:hover,
 .menu-button:focus {
-    background-color: #6C333B; 
-    border-color: #6C333B;
-    color: #E9CB94;
-    outline: none;
+	background-color: #6C333B;
+	border-color: #6C333B;
+	color: #E9CB94;
+	outline: none;
 }
 
 .contact-button {
-    background-color: #F8C646; 
-    color: #A17C36; 
-    border: 2px solid transparent;
+	background-color: #F8C646;
+	color: #A17C36;
+	border: 2px solid transparent;
 }
 
 .contact-button:hover,
 .contact-button:focus {
-    background-color: #B08926; 
-    color: #E9BD69; 
-    border-color: #B08926;
+	background-color: #B08926;
+	color: #E9BD69;
+	border-color: #B08926;
 }
 
 .button-group {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	gap: 30px;
 }
 
 .about-us {
-    background-color: #FDF5E6; 
-    padding: 20px 20px;
-    text-align: center;
-    font-family: "Ed Garamond";
-    color: #8A1E2D; 
+	background-color: #FDF5E6;
+	padding: 20px 20px;
+	text-align: center;
+	font-family: "Ed Garamond";
+	color: #8A1E2D;
 }
 
 .about-us h2 {
-    font-size: 2.5em;
-    font-family: "Ed Garamond";
-    margin-bottom: 20px;
-    color: #8A1E2D;
+	font-size: 2.5em;
+	font-family: "Ed Garamond";
+	margin-bottom: 20px;
+	color: #8A1E2D;
 }
 
 .about-us p {
-    font-size: 1.2em;
-    line-height: 1.6;
-    margin: 10px 0;
+	font-size: 1.2em;
+	line-height: 1.6;
+	margin: 10px 0;
 }
 
 .footer {
-    background-color: #8A1E2D; 
-    color: #FDF5E6;
-    padding: 10px 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap; 
-    text-align: center;
+	background-color: #8A1E2D;
+	color: #FDF5E6;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	text-align: center;
 }
 
 .footer-section {
-    margin: 10px;
-    flex: 1;
-    min-width: 200px; 
+	margin: 10px;
+	flex: 1;
+	min-width: 200px;
 }
 
 .footer-section h3 {
-    font-size: 20px;
-    font-family: "Ed Garamond";
-    margin-bottom: 10px;
-    border-bottom: 2px solid #FDF5E6; 
-    display: inline-block;
+	font-size: 20px;
+	font-family: "Ed Garamond";
+	margin-bottom: 10px;
+	border-bottom: 2px solid #FDF5E6;
+	display: inline-block;
 }
 
 .footer-section p {
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 0;
-    font-family: "Ed Garamond";
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	font-family: "Ed Garamond";
 }
-
 
 
 @media screen and (min-width: 768px) {
 	.logo {
-		font-size: 25px; /* Increase font size */
+		font-size: 25px;
+		/* Increase font size */
 	}
 
-    .nav-collapse ul {
-        display: flex; 
-        flex-direction: row;
-        justify-content: flex-end; 
-        align-items: center;
-    }
+	.nav-collapse ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: center;
+	}
 
-    .nav-collapse li {
-        width: auto; 
-        list-style: none;
-    }
+	.nav-collapse li {
+		width: auto;
+		list-style: none;
+	}
 
-    .nav-collapse a {
-        font-size: 20px;
-        text-align: center;
-        border: none; 
-        margin: 0; 
-        color: #FDF5E6; 
-        transition: color 0.3s ease, background-color 0.3s ease; 
-    }
+	.nav-collapse a {
+		font-size: 20px;
+		text-align: center;
+		border: none;
+		margin: 0;
+		color: #FDF5E6;
+		transition: color 0.3s ease, background-color 0.3s ease;
+	}
 
-    .nav-collapse a:hover {
-        color: #E9CB94;
-    }
+	.nav-collapse a:hover {
+		color: #E9CB94;
+	}
 
-    .nav-collapse ul ul a {
-        display: none; 
-    }
+	.nav-collapse ul ul a {
+		display: none;
+	}
 
-    .nav-collapse.closed {
-        max-height: none;
-    }
+	.nav-collapse.closed {
+		max-height: none;
+	}
 
-    .nav-toggle {
-        display: none; 
-    }
+	.nav-toggle {
+		display: none;
+	}
 
 	.image-container {
 		position: relative;
 		width: 100%;
-		height: 500px; 
-		display: flex; 
+		height: 500px;
+		display: flex;
 		justify-content: center;
-		align-items: center; 
+		align-items: center;
 		text-align: center;
-		overflow: hidden; 
+		overflow: hidden;
 	}
-	
+
 	.banner-image {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
 		height: 100%;
-		object-fit: cover; 
+		object-fit: cover;
 		filter: brightness(50%) grayscale(10%);
 		z-index: 1;
 	}
-	
+
 	.centered-text {
 		position: relative;
 		z-index: 2;
 		color: #FDF5E6;
-		max-width: 800px; 
+		max-width: 800px;
 		padding: 20px;
 		line-height: 1.5;
 	}
-	
+
 	.centered-text h1 {
-		font-size: 40px; 
+		font-size: 40px;
 		font-family: "Ed Garamond";
 		margin-bottom: 15px;
 	}
-	
+
 	.centered-text p {
-		font-size: 20px; 
+		font-size: 20px;
 		font-family: "Ed Garamond";
 		margin-bottom: 20px;
 	}
-	
+
 	.button-group {
 		display: flex;
 		justify-content: center;
-		gap: 20px; 
+		gap: 20px;
 	}
 
 	.button {
@@ -381,14 +381,14 @@ header {
 		transition: all 0.3s ease;
 		text-align: center;
 	}
-	
 
-    .container {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        max-width: 1200px; 
-        margin: 0 auto; 
-        padding: 0 20px; 
-    }
+
+	.container {
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
 }
