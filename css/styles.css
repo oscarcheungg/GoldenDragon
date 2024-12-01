@@ -225,7 +225,7 @@ header {
 	gap: 30px;
 }
 
-.about-us {
+.about-us-container {
 	background-color: #FDF5E6;
 	padding: 20px 20px;
 	text-align: center;
@@ -233,17 +233,28 @@ header {
 	color: #8A1E2D;
 }
 
-.about-us h2 {
+.about-us-text h2 {
 	font-size: 2.5em;
 	font-family: "Ed Garamond";
 	margin-bottom: 20px;
 	color: #8A1E2D;
 }
 
-.about-us p {
+.about-us-text p {
 	font-size: 1.2em;
 	line-height: 1.6;
 	margin: 10px 0;
+}
+
+.about-us-image {
+	width: 80%;
+	max-width: 600px;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	border: 5px solid white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
@@ -389,5 +400,38 @@ header {
 		max-width: 1200px;
 		margin: 0 auto;
 		padding: 0 20px;
+	}
+
+	.about-us-container {
+		display: flex;
+		background-color: #FDF5E6;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: space-between;
+		max-width: 1200px;
+		margin: 0 auto;
+		gap: 20px;
+	}
+
+	.about-us-text h2 {
+		font-size: 50px;
+		font-family: "Ed Garamond";
+		margin-bottom: 20px;
+		color: #8A1E2D;
+	}
+
+	.about-us-text p {
+		font-size: 25px;
+		line-height: 1.6;
+		margin: 10px 0;
+	}
+
+	.about-us-image {
+		flex: 1;
+		max-width: 45%;
+		height: auto;
+		border-radius: 10px;
+		border: 5px solid white;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	}
 }
