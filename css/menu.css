@@ -1,130 +1,130 @@
 html {
-  background-color: #FDF5E6;
+	background-color: #FDF5E6;
 }
 
 .menu {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-  text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
 }
 
 .menu h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-  font-family: "EB Garamond";
-  color: #8b1e1e;
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+	font-family: "EB Garamond";
+	color: #8b1e1e;
 }
 
 .menu p {
-  font-size: 1rem;
-  margin-bottom: 20px;
-  font-family: "EB Garamond";
-  color: #8b1e1e;
+	font-size: 1rem;
+	margin-bottom: 20px;
+	font-family: "EB Garamond";
+	color: #8b1e1e;
 }
 
 .menu a {
-  color: #F8C646;
-  text-decoration: underline;
-  font-family: "EB Garamond";
+	color: #F8C646;
+	text-decoration: underline;
+	font-family: "EB Garamond";
 }
 
 .menu-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
 }
 
 .menu-card {
-  background-color: #F8C646;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  text-align: left;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  gap: 10px;
-  padding: 15px;
+	background-color: #F8C646;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	text-align: left;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	gap: 10px;
+	padding: 15px;
 }
 
 .menu-card img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 8px;
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 8px;
 }
 
 .menu-card h2 {
-  font-size: 1.2rem;
-  margin: 10px 0 5px;
-  font-family: "EB Garamond";
-  color: #8b1e1e;
+	font-size: 1.2rem;
+	margin: 10px 0 5px;
+	font-family: "EB Garamond";
+	color: #8b1e1e;
 }
 
 .menu-card p {
-  font-size: 0.9rem;
-  margin: 0;
-  font-family: "EB Garamond";
-  color: #8b1e1e;
+	font-size: 0.9rem;
+	margin: 0;
+	font-family: "EB Garamond";
+	color: #8b1e1e;
 }
 
 .menu-card span {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #8b1e1e;
-  text-align: right;
-  font-family: "EB Garamond"
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: #8b1e1e;
+	text-align: right;
+	font-family: "EB Garamond"
 }
 
 .reviews {
-  padding: 40px 20px;
-  text-align: center;
-  color: #8b1e1e;
+	padding: 40px 20px;
+	text-align: center;
+	color: #8b1e1e;
 }
 
 .reviews h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-  font-family: "EB Garamond";
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+	font-family: "EB Garamond";
 }
 
 .reviews-source {
-  font-size: 0.9rem;
-  font-style: italic;
-  color: #8b1e1e;
-  margin-bottom: 20px;
-  font-family: "EB Garamond";
+	font-size: 0.9rem;
+	font-style: italic;
+	color: #8b1e1e;
+	margin-bottom: 20px;
+	font-family: "EB Garamond";
 }
 
 .reviews-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
 }
 
 .review-card {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .review-card p {
-  font-size: 1rem;
-  font-style: italic;
-  margin-bottom: 15px;
-  color: #8b1e1e;
-  font-family: "EB Garamond";
+	font-size: 1rem;
+	font-style: italic;
+	margin-bottom: 15px;
+	color: #8b1e1e;
+	font-family: "EB Garamond";
 }
 
 .review-card h3 {
-  font-size: 1.1rem;
-  color: #8b1e1e;
-  text-align: right;
-  font-weight: bold;
-  font-family: "EB Garamond";
+	font-size: 1.1rem;
+	color: #8b1e1e;
+	text-align: right;
+	font-weight: bold;
+	font-family: "EB Garamond";
 }
